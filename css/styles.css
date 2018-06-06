@@ -9,7 +9,7 @@ body {
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   font-size: 1em;
-  color: #676767;
+  color: #3d4252;
   background-color: #ffffff;
 }
 
@@ -39,7 +39,7 @@ ul  {
 
 header {
   z-index: 0;
-  background-color: #7577b9;
+  background-color: #3d4252;
 }
 
 h1 {
@@ -79,7 +79,7 @@ h2 {
 /*-------------NAVIGATION STYLES ---------*/
 
 nav {
-  background-color: #4d4d72;
+  background-color: #666f89;
 }
 
 nav a {
@@ -99,7 +99,7 @@ li {
 }
 
 .dashboard-icons {
-  fill: #c0c0c0;
+  fill: #cacbd5;
   height:45px;
 }
 
@@ -111,7 +111,7 @@ li {
 #modal-content {
   display:inline-block;
   font-weight: 300;
-  background-color: #7577b9;
+  background-color: #d55e2d;
   border-radius: 6px;
   color: #ffffff;
   margin: 30px 30px;
@@ -137,7 +137,7 @@ li {
 /* Modal Content */
 .modal-message {
   display:block;
-    background-color: #7377bf;
+    background-color: #d55e2d;
     padding: 20px;
     margin: 100px;
     font-weight: 400;
@@ -168,7 +168,7 @@ li {
 .close:focus,
 .close2:hover,
 .close:focus {
-    color: #81c98f;
+    color: #3d4252;
     text-decoration: none;
     cursor: pointer;
 }
@@ -260,39 +260,39 @@ border-bottom: none;
 
 .member-text {
   font-weight: 400;
-  color: #808080;
+  color: #3d4252;
 }
 
 .settings-text {
   display: inline-block;
   font-weight: 400;
-  color: #808080;
+  color: #3d4252;
   margin-left: 20px;
 }
 
 .email {
   font-size: .85em;
   font-weight: 400;
-  color: #7377bf;
+  color: #d55e2d;
 }
 
 .time {
   font-size: .85em;
   font-weight: 400;
-  color: #808080;
+  color: #3d4252;
 }
 
 .date {
   float: right;
   font-weight: 400;
-  color: #808080;
+  color: #3d4252;
 }
 
 .arrow{
   float: right;
   font-size: 20px;
   font-weight: 400;
-  color: #7377bf;
+  color: #d55e2d;
 }
 
 .clearfix::after {
@@ -302,11 +302,11 @@ border-bottom: none;
 }
 
 .title {
-    width: 100%;
+  width: 100%;
   font-size: 1em;
   font-weight: 300;
   height: 60px;
-  color: #676767;
+  color: #3d4252;
   text-align: center;
 }
 
@@ -322,7 +322,7 @@ border-bottom: none;
 
 .searchbox input {
   font-size: 18px;
-  color: #bababb;
+  color: #3d4252;
   width: 90%;
   border: 1pt solid gray;
   border-radius: 5px;
@@ -361,13 +361,13 @@ margin: 0;
 }
 
 .traffic ul li:hover {
-  background-color: #81c98f;
+  background-color: #3d4252;
   border-radius: 12px;
   color: #ffffff;
 }
 
 .focus {
-  background-color: #81c98f;
+  background-color: #3d4252;
   border-radius: 12px;
   color: #ffffff;
 }
@@ -407,7 +407,7 @@ margin: 0;
   height: 100px;
   width: 100px;
   text-align: center;
-  background-color: #65619E;
+  background-color: #3D4252;
   border-radius: 50%;
   margin: 15px 0 15px 15px;
   padding: 15px;
@@ -424,13 +424,13 @@ margin: 0;
 .sm-header {
   font-weight: 700;
   font-size: 16px;
-  color: #7377bf;
+  color: #d55e2d;
 }
 
 .numbers {
   display:inline;
   font-size: 50px;
-  color: #808080;
+  color: #666f89;
 }
 
 
@@ -438,12 +438,12 @@ margin: 0;
 
 .user-search {
   width: 90%;
-  border: 1px solid gray;
+  border: 1px solid #3d4252;
   border-radius: 6px;
   height: 60px;
   background-color: #f8f8f8;
   margin: 20px 20px 0 20px;
-  padding-left: 20px;
+  padding-left: 10px;
 }
 
 input[placeholder="Message for User"] {
@@ -452,21 +452,21 @@ input[placeholder="Message for User"] {
 
 .user-message {
   width: 90%;
-  border: 1px solid gray;
+  border: 1px solid #3d4252;
   border-radius: 6px;
   height: 100px;
   background-color: #f8f8f8;
   margin: 20px 20px 15px 20px;
-  padding-left: 20px;
+  padding-left: 10px;
   padding-top: 15px;
 }
 
 button[type="submit"]{
   width: 90%;
-  border: 1px solid gray;
+  border: 1px solid #d55e2d;
   border-radius: 6px;
   height: 60px;
-  background-color: #7377bf;
+  background-color: #d55e2d;
   margin: 0 20px;
   color: #ffffff;
   font-weight: 400;
@@ -487,10 +487,10 @@ select {
 
 #save-button {
     width: 45%;
-    border: 1px solid gray;
+    border: 1px solid #d55e2d;
     border-radius: 6px;
     height: 60px;
-    background-color: #7377bf;
+    background-color: #d55e2d;
     color: #ffffff;
     font-weight: 400;
     text-align: center;
@@ -499,10 +499,10 @@ select {
 
 #cancel-button{
   width: 45%;
-  border: 1px solid gray;
+  border: 1px solid #3d4252;
   border-radius: 6px;
   height: 60px;
-  background-color: #808080;
+  background-color: #3d4252;
   color: #ffffff;
   font-weight: 400;
   text-align: center;
@@ -541,7 +541,7 @@ top: 0;
 left: 0;
 right: 0;
 bottom: 0;
-background-color: #c0c0c0;
+background-color: #cacbd5;
 -webkit-transition: .4s;
 transition: .4s;
 }
@@ -570,7 +570,7 @@ font-weight: 400;
 }
 
 input:checked + .slider {
-background-color: #7377bf;
+background-color: #666f89;
 content: "";
 }
 
@@ -611,7 +611,7 @@ border-radius: 50%;
     position: absolute;
     top:30px;
     right:70px;
-    color: #bababb;
+    color: #cacbd5;
   }
 }
 
@@ -687,7 +687,7 @@ nav ul{
 
 .icon-menu li:hover {
   fill: #ffffff;
-  border-left: 5px solid #81c98f;
+  border-left: 5px solid #d55e2d;
   border-bottom: none;
 }
 
@@ -759,7 +759,7 @@ nav ul{
   display: flex;
   font-weight: 700;
   font-size: 16px;
-  color: #7377bf;
+  color: #d55e2d;
 }
 
 .social {

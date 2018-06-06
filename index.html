@@ -82,7 +82,7 @@
                 			c-1.3,0-2.4-0.8-2.8-2h5.6C16.4,27.2,15.3,28,14,28z M3,24l3-6v-8c0-4.4,3.6-8,8-8s8,3.6,8,8v8l3,6H3z"/>
                 </svg>
                 <svg  xmlns="http://www.w3.org/2000/svg"  style="display:none;">
-                  <symbol id="notification" viewBox="0 0 200 200" fill="#81c98f">
+                  <symbol id="notification" viewBox="0 0 200 200" fill="#d55e2d">
                     <circle cx="100" cy="100" r="100"/>
                   </symbol>
 
@@ -94,7 +94,7 @@
               </svg>
 
 
-            <p style="border-left: solid 1px #000; margin-top: 22px">
+            <p style="border-left: solid 1px #fff; margin-top: 22px">
             <img class="avatars-1" src="images/Sandy.jpg" alt="image"/>
             <p class="margin">Sandy Green</p>
           </div>
@@ -111,17 +111,17 @@
                           <use xlink:href="#dashboard-icon"/>
                         </svg></li>
 
-                    <li> <svg class="dashboard-icons" width="32" height="32">
-                      <use xlink:href="#members-icon" />
-                    </svg></li>
+                        <li><a href="#members"><svg class="dashboard-icons" width="32" height="32">
+                          <use xlink:href="#members-icon" />
+                        </svg></a></li>
 
-                    <li><svg class="dashboard-icons" width="32" height="32">
-                      <use xlink:href="#visits-icon" />
-                    </svg></li>
+                        <li><a href="#visits"><svg class="dashboard-icons" width="32" height="32">
+                          <use xlink:href="#visits-icon" />
+                        </svg></a></li>
 
-                      <li><svg class="dashboard-icons" width="32" height="32">
-                        <use xlink:href="#settings-icon" />
-                      </svg></li>
+                        <li><a href="#settings"><svg class="dashboard-icons" width="32" height="32">
+                          <use xlink:href="#settings-icon" />
+                        </svg></a></li>
                     </ul>
                   </nav>
 
@@ -164,7 +164,7 @@
                   <div class="aside-2 column-right  cards"><h2>Mobile Users</h2>
                     <canvas id="myDoughnutChart" width="500" height="300"></canvas>
                   </div>
-                  <div class="social-stats">
+                  <div id="visits" class="social-stats">
                     <h2>Social Stats</h2>
                     <div class="social">
                       <div class="twitter  sm-cards">
@@ -222,7 +222,7 @@
                   </div>
                   </div>
 
-                  <div class="members aside-1 column-left  cards">
+                  <div id="members" class="members aside-1 column-left  cards">
                     <h2>New Members</h2>
                         <div class="member-info">
                           <img class="avatars-2" src="images/37.jpg" alt="image"/>
@@ -326,7 +326,7 @@
 
 
     <!-- Settings content -->
-                  <div class="aside-2  column-right  cards">
+                  <div id="settings" class="aside-2  column-right  cards">
                     <h2>Settings</h2>
                     <div class="email-settings">
                       <p class="settings-text">Send Email Notifications</p>
