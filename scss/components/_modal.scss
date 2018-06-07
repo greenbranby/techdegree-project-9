@@ -1,0 +1,66 @@
+/*-------------MODAL POP-UP STYLES ---------*/
+
+#modal-content {
+  display:inline-block;
+  font-weight: 300;
+  background-color: $orange;
+  border-radius: 6px;
+  color: $color-text-light;
+  margin: 30px 30px;
+  padding:  5px 20px;
+  height: auto;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content */
+.modal-message {
+  display:block;
+    background-color: $orange;
+    padding: 20px;
+    margin: 100px;
+    font-weight: 400;
+    color: $color-text-light;
+    border-radius: 6px;
+}
+
+/* The Close Button */
+.close {
+    color: $color-text-light;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+
+.close2{
+  color: $color-text-light;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  margin-right: 130px;
+  margin-top: 5px;
+}
+
+.close:hover,
+.close:focus,
+.close2:hover,
+.close:focus {
+    color: $color-text-base;
+    text-decoration: none;
+    cursor: pointer;
+}

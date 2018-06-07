@@ -1,0 +1,29 @@
+/*------------------Icon Styles-------------*/
+
+.dashboard-icons {
+  fill: $lt-gray;
+  height:45px;
+}
+
+.dashboard-icons:hover {
+  fill: $white;
+}
+
+
+.social-icons {
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  background-color: $dk-gray;
+  border-radius: 50%;
+  margin: 15px 0 15px 15px;
+  padding: 15px;
+}
+
+.social-icons svg {
+  width: 60%;
+  height:60%;
+  z-index: 1;
+  margin-top: 15px;
+  fill: white;
+}

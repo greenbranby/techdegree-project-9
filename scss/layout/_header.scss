@@ -1,0 +1,67 @@
+
+/*-------------DASHBOARD HEADER STYLES ---------*/
+
+.dashboard-head {
+  padding: 5px 20px;
+  color: $color-text-light;
+  font-size: 14px;
+
+  @media (min-width: $brk-large) {
+    display: inline-block;
+  }
+}
+
+.dashboard-left{
+  display: flex;
+
+  @media (min-width: $brk-large) {
+    float: left;
+  }
+}
+
+.dashboard-right{
+  display:flex;
+
+  @media (min-width: $brk-large) {
+    float: right;
+    display: inline-flex;
+  }
+}
+
+.badge {
+  position: relative;
+  border-top: 1pt solid white;
+
+  @media (min-width: $brk-large) {
+    border-top: none;
+  }
+}
+
+.badge p {
+  color: $color-text-light;
+  margin-right: 20px
+}
+
+.not-badge {
+  margin-top: 40px;
+  margin-right: 20px;
+}
+
+.notification-icon {
+  position: absolute;
+  top: 35px;
+  right: 212px;
+}
+
+
+header {
+  z-index: 0;
+  background-color: $color-sec;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  @media (min-width: $brk-large) {
+    display: block;
+  }
+}

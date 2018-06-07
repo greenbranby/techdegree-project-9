@@ -1,0 +1,81 @@
+
+/*------------------MESSAGE FORM-------------*/
+
+.user-search {
+  @extend %border-rad;
+  width: 90%;
+  border: 1px solid $dk-gray;
+  height: 60px;
+  background-color: $xlt-gray;
+  margin: 20px 20px 0 20px;
+  padding-left: 10px;
+}
+
+input[placeholder="Message for User"] {
+  padding-bottom: 50px;
+}
+
+.user-message {
+  @extend %border-rad;
+  width: 90%;
+  border: 1px solid $dk-gray;
+  height: 100px;
+  background-color: $xlt-gray;
+  margin: 20px 20px 15px 20px;
+  padding-left: 10px;
+  padding-top: 15px;
+}
+
+button[type="submit"]{
+  @extend %border-rad;
+  width: 90%;
+  border: 1px solid $color-prim;
+  height: 60px;
+  background-color: $color-prim;
+  margin: 0 20px;
+  color: $color-text-light;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+/*---------SETTINGS  CARD CONTENT STYLES----------*/
+
+select {
+  @extend %border-rad;
+  width: 93%;
+  border: 1px solid $gray;
+  height: 60px;
+  background-color: $xlt-gray;
+  margin: 20px;
+  }
+
+#save-button {
+    @extend %border-rad;
+    width: 45%;
+    border: 1px solid $color-prim;
+    height: 60px;
+    background-color: $color-prim;
+    color: $color-text-light;
+    font-weight: 400;
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+#cancel-button{
+  @extend %border-rad;
+  width: 45%;
+  border: 1px solid $color-sec;
+  height: 60px;
+  background-color: $color-sec;
+  color: $color-text-light;
+  font-weight: 400;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.buttons {
+  display:flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}

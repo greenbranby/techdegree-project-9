@@ -1,0 +1,85 @@
+
+/*-------------NAVIGATION STYLES ---------*/
+
+nav {
+  background-color: $color-ter;
+
+  @media (min-width: $brk-large) {
+    padding: 0;
+  }
+}
+
+nav a {
+ text-decoration: none;
+}
+
+nav ul{
+  @media (min-width: $brk-large) {
+    flex-flow: column nowrap;
+    width: 100px;
+  }
+}
+
+li {
+  padding: 20px;
+}
+
+.icon-menu ul {
+  display: flex;
+  justify-content: center;
+
+  @media (min-width: $brk-large) {
+    justify-content: space-between;
+    padding: 0;
+  }
+}
+
+.icon-menu li {
+  @media (min-width: $brk-large) {
+    padding-top: 20px;
+    padding-left: 35px;
+  }
+}
+
+.icon-menu li:hover {
+  fill: $white;
+  border-bottom: 5px solid $orange;
+
+  @media (min-width: $brk-large) {
+    border-bottom: none;
+  }
+}
+
+.icon-menu ul {
+  @media (min-width: $brk-large) {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+
+/*-------------DASHBOARD NAV STYLES ---------*/
+
+.traffic ul li {
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px 20px;
+  margin: 0;
+
+  @media (min-width: $brk-large) {
+    margin: 0 10px;
+  }
+}
+
+.traffic ul {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+}
+
+.traffic ul li:hover,
+.focus {
+  background-color: $color-sec;
+  border-radius: 12px;
+  color: $color-text-light;
+}

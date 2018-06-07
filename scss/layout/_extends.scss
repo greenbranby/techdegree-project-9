@@ -1,0 +1,27 @@
+
+// Border Top for cards
+
+%t-border {
+  border-top: 1px solid $gray;
+}
+
+// Border Bottom for some cards
+%b-border {
+  border-bottom: 1px solid $gray;
+}
+
+//No Border Bottom for some sm-cards
+%no-b-border {
+  border-bottom: none;
+}
+
+// Font weight 400
+%font-med-wt {
+  font-weight: 400;
+}
+
+
+// Border Radius
+%border-rad {
+  border-radius: 6px;
+}
