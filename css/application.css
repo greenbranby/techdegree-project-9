@@ -741,7 +741,8 @@ li {
   border-bottom: 5px solid #d55e2d; }
   @media (min-width: 1024px) {
     .icon-menu li:hover {
-      border-bottom: none; } }
+      border-bottom: none;
+      border-left: 5px solid #d55e2d; } }
 
 @media (min-width: 1024px) {
   .icon-menu ul {
