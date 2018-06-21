@@ -1,7 +1,6 @@
 
 /*-------------LAYOUT  STYLES ---------*/
 .container {
-  min-width: 320px;
   @media (min-width: $brk-large) {
     display: flex;
     flex-direction: row;

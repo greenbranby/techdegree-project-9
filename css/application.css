@@ -467,13 +467,11 @@ header {
       display: block; } }
 
 /*-------------LAYOUT  STYLES ---------*/
-.container {
-  min-width: 320px; }
-  @media (min-width: 1024px) {
-    .container {
-      display: flex;
-      flex-direction: row;
-      flex-wrap: wrap; } }
+@media (min-width: 1024px) {
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap; } }
 
 @media (min-width: 1024px) {
   .container > * {
