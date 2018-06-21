@@ -537,8 +537,11 @@ header {
   color: #3d4252; }
 
 .date {
-  float: right;
+  float: left;
   color: #3d4252; }
+  @media (min-width: 768px) {
+    .date {
+      float: right; } }
 
 .arrow {
   float: right;
@@ -753,11 +756,12 @@ li {
 .traffic ul li {
   font-size: 14px;
   font-weight: 700;
-  padding: 5px 20px;
+  padding: 5px 10px;
   margin: 0; }
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     .traffic ul li {
-      margin: 0 10px; } }
+      margin: 0 10px;
+      padding: 5px 20px; } }
 
 .traffic ul {
   position: absolute;
