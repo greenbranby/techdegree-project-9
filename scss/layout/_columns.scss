@@ -106,8 +106,12 @@
 
 .date {
   @extend %font-med-wt;
-  float: right;
+  float: left;
   color: $color-text-base;
+
+  @media (min-width: $brk-med){
+    float: right;
+  }
 }
 
 .arrow{
