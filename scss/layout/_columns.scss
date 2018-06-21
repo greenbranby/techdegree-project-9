@@ -1,6 +1,7 @@
 
 /*-------------LAYOUT  STYLES ---------*/
 .container {
+  min-width: 320px;
   @media (min-width: $brk-large) {
     display: flex;
     flex-direction: row;
@@ -77,6 +78,8 @@
 
 .member-text-inside{
   display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -106,19 +109,18 @@
 
 .date {
   @extend %font-med-wt;
-  float: left;
   color: $color-text-base;
-
-  @media (min-width: $brk-med){
-    float: right;
-  }
 }
 
 .arrow{
-  @extend %font-med-wt;
-  float: right;
-  font-size: 20px;
-  color: $color-prim;
+  display: none;
+
+  @media (min-width: 768px){
+    font-weight: 400;
+    font-size: 20px;
+    color: $color-prim;
+    display: block;
+  }
 }
 
 .clearfix::after {
