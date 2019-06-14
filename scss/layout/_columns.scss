@@ -1,11 +1,11 @@
 
 /*-------------LAYOUT  STYLES ---------*/
 .container {
-  min-width: 320px;
   @media (min-width: $brk-large) {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    background-color: #f7f7f7;
   }
 }
 
@@ -23,8 +23,7 @@
 }
 
 .cards {
-  @extend %t-border;
-  @extend %b-border;
+  @extend %box-shd;
   padding: 30px;
 }
 
@@ -39,40 +38,16 @@
   width: 100%;
 
   @media (min-width: $brk-large) {
-     width: 50%;
+     width: 45%;
   }
 }
 
 .column-left {
-  @extend %no-b-border;
-  border-right: none;
-
-  @media (min-width: $brk-large) {
-     border-right:1px solid gray;
-  }
+  @extend %box-shd;
 }
 
-.column-right {
-  @media (min-width: $brk-large) {
-    border-bottom: none;
-    border-top: 1px solid gray;
-  }
-}
-
-.column-right,
-.member-info:last-of-type {
-  @extend %no-b-border;
-}
-
-.members {
-  @media (min-width: $brk-large) {
-    border-bottom: none;
-  }
-}
 
 .member-info {
-  @extend %b-border;
-  padding-top: 20px;
   width: 100%;
 }
 
@@ -143,8 +118,6 @@
 }
 
 .searchbox  {
-  @extend %t-border;
-  @extend %b-border;
   position:relative;
   height: 80px;
   background-color: $xlt-gray;
@@ -152,7 +125,6 @@
 
   @media (min-width: $brk-large) {
     width: 80%;
-    border-left: 1pt solid gray;
   }
 }
 
@@ -160,7 +132,6 @@
   font-size: 18px;
   color: $color-text-base;
   width: 90%;
-  border: 1px solid gray;
   border-radius: 5px;
   padding: 0 20px;
   height: 50px;
@@ -198,8 +169,14 @@
   padding-top: 50px;
 }
 
+.traffic,
+.cards,
+{
+  background-color: $white;
+  margin: 20px;
+}
+
 .social-stats {
-  @extend %t-border;
   width: 100%;
   padding: 20px;
 }
@@ -235,7 +212,6 @@
 }
 
 .sm-cards {
-  border: 1px solid gray;
   border-radius: 6px;
   height: 100%;
   background-color: $xlt-gray;
@@ -250,16 +226,20 @@
 .sm-header {
   font-weight: 700;
   font-size: 16px;
-  color: $orange;
+  color: $turquoise;
 
   @media (min-width: $brk-large) {
     display: flex;
   }
 }
-
+#visits {
+  @extend %box-shd;
+  background-color: $white;
+  margin: 20px;
+}
 .numbers {
   display:inline;
-  font-size: 50px;
+  font-size: 30px;
   color: $color-text-base;
 
   @media (min-width: $brk-large) {

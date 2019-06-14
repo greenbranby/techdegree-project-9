@@ -20,8 +20,8 @@ var myLineChart = new Chart(ctx, {
                 label: [],
                 data: [0, 500, 1000, 850,1300, 1700, 1300, 1500, 1000, 1500, 2000, 1500, 2000, 2500],
                 fill: true,
-                backgroundColor: ['rgba(102,111,137, .25)'],
-                borderColor: ['rgba(102,111,137, 1)'],
+                backgroundColor: ['rgba(210,216,230, .5)'],
+                borderColor: ['rgba(39,61,170, 1)'],
                 lineTension: 0,
                 pointBackgroundColor: 'white',
                 pointBorderWidth: 2,
@@ -53,13 +53,13 @@ var myLineChart = new Chart(ctx, {
               label: '# of Votes',
               data: [50, 75, 150, 100, 200, 180, 75, 250],
               backgroundColor: [
-                  'rgb(213,94,35)',
-                  'rgb(213,94,35)',
-                  'rgb(213,94,35)',
-                  'rgb(213,94,35)',
-                  'rgb(213,94,35)',
-                  'rgb(213,94,35)',
-                  'rgb(213,94,35)'
+                  'rgb(47,188,203)',
+                  'rgb(47,188,203)',
+                  'rgb(47,188,203)',
+                  'rgb(47,188,203)',
+                  'rgb(47,188,203)',
+                  'rgb(47,188,203)',
+                  'rgb(47,188,203)'
               ],
 
               borderWidth: 1
@@ -89,14 +89,14 @@ var myLineChart = new Chart(ctx, {
                 {"label":"My First Dataset",
                   data:[15,15,75],
                   backgroundColor: [
-                      'rgb(213,94,45)',
-                      'rgb(102,111,137)',
-                      'rgb(61,66,82)'
+                      'rgb(210,216,230)',
+                      'rgb(47,188,203)',
+                      'rgb(81,111,225)'
                     ],
                     borderColor: [
-                      'rgb(213,94,45)',
-                      'rgb(102,111,137)',
-                      'rgb(61,66,82)'
+                      'rgb(210,216,230)',
+                      'rgb(47,188,203)',
+                      'rgb(81,111,225)'
                       ],
                 }
               ]
