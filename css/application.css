@@ -458,7 +458,7 @@ h2 {
 
 header {
   z-index: 0;
-  background-color: #3d4252;
+  background-color: #516fe1;
   display: flex;
   flex-direction: column;
   align-items: center; }
@@ -471,7 +471,8 @@ header {
   .container {
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap; } }
+    flex-wrap: wrap;
+    background-color: #f7f7f7; } }
 
 @media (min-width: 1024px) {
   .container > * {
@@ -495,25 +496,9 @@ header {
   @media (min-width: 1024px) {
     .column-left,
     .column-right {
-      width: 50%; } }
-
-.column-left {
-  border-right: none; }
-  @media (min-width: 1024px) {
-    .column-left {
-      border-right: 1px solid gray; } }
-
-@media (min-width: 1024px) {
-  .column-right {
-    border-bottom: none;
-    border-top: 1px solid gray; } }
-
-@media (min-width: 1024px) {
-  .members {
-    border-bottom: none; } }
+      width: 45%; } }
 
 .member-info {
-  padding-top: 20px;
   width: 100%; }
 
 .member-text-inside {
@@ -532,7 +517,7 @@ header {
 
 .email {
   font-size: .85em;
-  color: #d55e2d; }
+  color: #2fbccb; }
 
 .time {
   font-size: .85em;
@@ -547,7 +532,7 @@ header {
     .arrow {
       font-weight: 400;
       font-size: 20px;
-      color: #d55e2d;
+      color: #2fbccb;
       display: block; } }
 
 .clearfix::after {
@@ -573,14 +558,12 @@ header {
   width: 100%; }
   @media (min-width: 1024px) {
     .searchbox {
-      width: 80%;
-      border-left: 1pt solid gray; } }
+      width: 80%; } }
 
 .searchbox input {
   font-size: 18px;
   color: #3d4252;
   width: 90%;
-  border: 1px solid gray;
   border-radius: 5px;
   padding: 0 20px;
   height: 50px;
@@ -611,6 +594,11 @@ header {
   position: relative;
   border: none;
   padding-top: 50px; }
+
+.traffic,
+.cards {
+  background-color: #fff;
+  margin: 20px; }
 
 .social-stats {
   width: 100%;
@@ -644,7 +632,6 @@ header {
   margin-top: 25px; }
 
 .sm-cards {
-  border: 1px solid gray;
   border-radius: 6px;
   height: 100%;
   background-color: #f8f8f8;
@@ -657,34 +644,31 @@ header {
 .sm-header {
   font-weight: 700;
   font-size: 16px;
-  color: #d55e2d; }
+  color: #2fbccb; }
   @media (min-width: 1024px) {
     .sm-header {
       display: flex; } }
 
+#visits {
+  background-color: #fff;
+  margin: 20px; }
+
 .numbers {
   display: inline;
-  font-size: 50px;
+  font-size: 30px;
   color: #3d4252; }
   @media (min-width: 1024px) {
     .numbers {
       font-size: 50px; } }
-
-.cards, .searchbox, .social-stats {
-  border-top: 1px solid #808080; }
-
-.cards, .member-info, .searchbox {
-  border-bottom: 1px solid #808080; }
-
-.column-left, .column-right,
-.member-info:last-of-type {
-  border-bottom: none; }
 
 .member-text, .settings-text, .email, .time, .date {
   font-weight: 400; }
 
 .user-search, .user-message, button[type="submit"], select, #save-button, #cancel-button {
   border-radius: 6px; }
+
+.cards, .column-left, #visits {
+  box-shadow: 0 0 1em #d2d5e6; }
 
 /*------------------Icon Styles-------------*/
 .dashboard-icons {
@@ -698,10 +682,12 @@ header {
   height: 100px;
   width: 100px;
   text-align: center;
-  background-color: #3d4252;
+  background-color: #516fe1;
   border-radius: 50%;
-  margin: 15px 0 15px 15px;
   padding: 15px; }
+  @media (min-width: 1024px) {
+    .social-icons {
+      margin: 15px 0 15px 15px; } }
 
 .social-icons svg {
   width: 60%;
@@ -712,7 +698,7 @@ header {
 
 /*-------------NAVIGATION STYLES ---------*/
 nav {
-  background-color: #666f89; }
+  background-color: #273daa; }
   @media (min-width: 1024px) {
     nav {
       padding: 0; } }
@@ -743,11 +729,11 @@ li {
 
 .icon-menu li:hover {
   fill: #fff;
-  border-bottom: 5px solid #d55e2d; }
+  border-bottom: 5px solid #2fbccb; }
   @media (min-width: 1024px) {
     .icon-menu li:hover {
       border-bottom: none;
-      border-left: 5px solid #d55e2d; } }
+      border-left: 5px solid #2fbccb; } }
 
 @media (min-width: 1024px) {
   .icon-menu ul {
@@ -772,7 +758,7 @@ li {
 
 .traffic ul li:hover,
 .focus {
-  background-color: #3d4252;
+  background-color: #516fe1;
   border-radius: 12px;
   color: #fff; }
 
@@ -814,9 +800,9 @@ input[placeholder="Message for User"] {
 
 button[type="submit"] {
   width: 90%;
-  border: 1px solid #d55e2d;
+  border: 1px solid #2fbccb;
   height: 60px;
-  background-color: #d55e2d;
+  background-color: #2fbccb;
   margin: 0 20px;
   color: #fff;
   font-weight: 400;
@@ -833,9 +819,9 @@ select {
 
 #save-button {
   width: 45%;
-  border: 1px solid #d55e2d;
+  border: 1px solid #2fbccb;
   height: 60px;
-  background-color: #d55e2d;
+  background-color: #2fbccb;
   color: #fff;
   font-weight: 400;
   text-align: center;
@@ -843,9 +829,9 @@ select {
 
 #cancel-button {
   width: 45%;
-  border: 1px solid #3d4252;
+  border: 1px solid #516fe1;
   height: 60px;
-  background-color: #3d4252;
+  background-color: #516fe1;
   color: #fff;
   font-weight: 400;
   text-align: center;
@@ -860,7 +846,7 @@ select {
 #modal-content {
   display: inline-block;
   font-weight: 300;
-  background-color: #d55e2d;
+  background-color: #2fbccb;
   border-radius: 6px;
   color: #fff;
   margin: 30px 30px;
@@ -884,7 +870,7 @@ select {
 /* Modal Content */
 .modal-message {
   display: block;
-  background-color: #d55e2d;
+  background-color: #2fbccb;
   padding: 20px;
   margin: 100px;
   font-weight: 400;
